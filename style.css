@@ -1,0 +1,21 @@
+body,
+h1,
+p,
+img {
+  pointer-events: none;
+}
+
+body {
+  background-color: beige;
+  text-align: center;
+  user-select: none;
+}
+
+h1,
+p {
+  text-align: left;
+}
+
+p {
+  font-size: 24px;
+}
