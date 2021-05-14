@@ -4,8 +4,8 @@ let image = document.getElementById(`image`)
 document.addEventListener(`mousemove`, findAngle)
 
 function findAngle(event) {
-  let imageX = image.offsetLeft + (image.offsetWidth / 2)
-  let imageY = image.offsetTop + (image.offsetHeight / 2)
+  let imageX = image.offsetLeft + image.offsetWidth / 2
+  let imageY = image.offsetTop + image.offsetHeight / 2
 
   let opposite = -(event.offsetY - imageY)
   let adjacent = event.offsetX - imageX
